@@ -21,12 +21,12 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.niit.shoppingcart.dao.CategoryDAO;
-import com.niit.shoppingcart.dao.ProductDAO;
-import com.niit.shoppingcart.dao.SupplierDAO;
-import com.niit.shoppingcart.model.Category;
-import com.niit.shoppingcart.model.Product;
-import com.niit.shoppingcart.model.Supplier;
+import com.niit.onlineshopping.dao.CategoryDAO;
+import com.niit.onlineshopping.dao.ProductDAO;
+import com.niit.onlineshopping.dao.SupplierDAO;
+import com.niit.onlineshopping.model.Category;
+import com.niit.onlineshopping.model.Product;
+import com.niit.onlineshopping.model.Supplier;
 import com.niit.util.FileUtil;
 import com.niit.util.Util;
 

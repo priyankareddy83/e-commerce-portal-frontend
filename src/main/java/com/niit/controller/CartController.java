@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.niit.shoppingcart.dao.My_CartDAO;
-import com.niit.shoppingcart.dao.ProductDAO;
-import com.niit.shoppingcart.model.My_Cart;
-import com.niit.shoppingcart.model.Product;
+import com.niit.onlineshopping.dao.My_CartDAO;
+import com.niit.onlineshopping.dao.ProductDAO;
+import com.niit.onlineshopping.model.My_Cart;
+import com.niit.onlineshopping.model.Product;
 
 @Controller
 public class CartController {
